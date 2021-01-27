@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.App{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 17px 12px 0px 12px;
+    background: linear-gradient(180deg, #4568DC 0%, #B06AB3 100%),
+    linear-gradient(0deg, #EF8E48, #EF8E48);
+    width: 326px;
+    height: 603px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.base-window {
+    background-color: #ffffff;
+    padding: 14px 11px 24px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.game-window__desc-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.game-window__task{
+    display: flex;
+    margin-bottom: 8px;
+
+}
+.game-window__task-title{
+    margin-right: 8px;
+}
+.game-window__task-desc{
+    font-size: 14px;
+    font-weight: 300;
+}
+.game-field{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+.game-field__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+
+}
+
+.game-field__item:hover{
+    cursor:pointer;
+    background: #FFD205;
+}
+.active{
+    background: #FFD205;
+
+}
+.game-window__button{
+    display: block;
+    margin: 0 auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    padding-right: 21px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background-color: transparent;
+    border-radius: 40px;
+}
+.game-window__button:hover{
+    cursor:pointer;
+    background-color: #e8e7e7;
+    transition: 0.2s all ease-in;
+}
+.result-window{
+    text-align: center;
+    height: 80px;
+    margin-bottom: 0;
+}
